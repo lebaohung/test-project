@@ -1,0 +1,25 @@
+.label {
+    color: red;
+}
+
+.container2 {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    /*border-top-style: 20px;*/
+}
+
+.container1 {
+    width: 700px;
+    height: 400px;
+    background-color: aquamarine;
+    padding-top: 20px;
+;
+}
+
+.big-tittle {
+    width: 500px;
+    height: 20px;
+    background-color: orangered;
+    text-align: center;
+}
