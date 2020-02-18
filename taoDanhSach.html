@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tao Survey</title>
+</head>
+<body>
+<form action="some.link" method="GET">
+    <h1>Make Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr>
+    <strong>What is your age range?</strong><br>
+    <select style="width: 700px">
+        <option value="18">18-24</option>
+        <option value="19">25-34</option>
+        <option value="20">35-50</option>
+        <option value="21">50+</option>
+
+    </select><br><br>
+
+    <strong>What is your yearly income range?</strong><br>
+    <select style="width: 700px">
+        <option>$0 - $25000</option>
+        <option>$25001 - $50000</option>
+        <option>$50001 - $100000</option>
+        <option>$100000+</option>
+    </select>
+    <br><br>
+    <strong>Gender</strong><br>
+    <label><input name="gender" type="radio" value="Male">Male</label><br>
+    <label><input name="gender" type="radio" value="Famale">Famale</label>
+
+    <br><br>
+    <strong>Which of the following products have you purchase?</strong><br>
+    <label><input type="checkbox" name="product">Product 1 </label><br>
+    <label><input type="checkbox" name="product">Product 2 </label><br>
+    <label><input type="checkbox" name="product">Product 3 </label><br>
+
+    <br>
+    <strong>How often would you use our new product?</strong><br>
+    <label><input name="time" type="radio">Daily</label><br>
+    <label><input name="time" type="radio">Weekly</label><br>
+    <label><input name="time" type="radio">Monthly</label><br>
+    <br>
+    <strong>What would you pay for the new product?</strong>
+    <br>
+    $ <input size="50px" type="number"> . <input size="5px"><br>
+    <span style="padding-left: 10px">Dollars <span style="display: inline-block; margin-left: 145px;">Cents</span></span>
+
+    <br><br>
+    <strong>What features would you like to see in the new products?</strong><br>
+    <textarea rows="5" cols="80"></textarea>
+    <br>
+    <br>
+    <div style="padding:10px 15px; width: 100px; height: 5px;"><input type="submit" value="Submit"></div>
+
+</form>
+
+</body>
+</html>
